@@ -1,0 +1,8 @@
+puts "hours of work per week"
+hours = gets.chomp.to_i
+puts "how much you make a hour"
+munny = gets.chomp.to_i
+puts "how many weeks"
+week = gets.chomp.to_i
+ammount = hours*munny*week
+puts "the final ammount you made is #{ammount}"
